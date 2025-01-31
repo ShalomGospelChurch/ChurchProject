@@ -54,7 +54,7 @@
 
 /* =============== Colors Used=====================
 
-  Pink : #F27C8A;
+  Pink : var(--medium-blue);
   Grey : #606060;
   Black: #000000;;
 
@@ -108,7 +108,7 @@ h6 {
   font-size: 18px;
 }
 a {  
-  color: #F27C8A;
+  color: var(--medium-blue);
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -224,7 +224,7 @@ ul {
   width: 142px;
   height: 34px;
   line-height: 2!important;
-  background: #F27C8A; 
+  background-color: var(--dark-blue); 
   text-transform: uppercase; 
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s ease;
@@ -238,8 +238,8 @@ ul {
 .btn-default.active,
 .btn-default.active:focus,
 .btn-default.active:hover {
-  color: #A1A1A1;
-  background: #E6E6E6; 
+  color:#121212;
+  background-color: var(--light-blue); 
   outline: none!important;
   border: none!important;
 }
@@ -267,7 +267,7 @@ ul {
 .btn-inverse.active,
 .btn-inverse.active:focus,
 .btn-inverse.active:hover {
-  color: #A1A1A1;
+  color: #121212;
   background: #E6E6E6; 
   outline: none!important;
   border: none!important;
@@ -338,7 +338,7 @@ ul {
 }
 .owl-prev:hover,
 .owl-next:hover {  
-  background-color: #F27C8A;
+  background-color: var(--medium-blue);
   color: #FFF;
 }
 .abt-slider .owl-prev,
@@ -381,8 +381,8 @@ ul {
   margin-top: 80px;
 }
 .owl-dot.active {
-  border: 1px solid #F27C8A;
-  background: #F27C8A;
+  border: 1px solid var(--medium-blue);
+  background: var(--medium-blue);
 }
 @media(max-width:767px) {  
   .owl-nav {
@@ -411,7 +411,7 @@ ul {
 }
 .read-more i {  
   margin-left: 6px;
-  color: #F27C8A;
+  color: var(--medium-blue);
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -446,7 +446,7 @@ ul {
   -transition: 0.3s ease;
 }
 .social-icon li:hover a {
-  color: #F27C8A;  
+  color: var(--medium-blue);  
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -454,7 +454,7 @@ ul {
   transform: scale(1.2);
 }
 .social-icon ul li:hover {  
-  border: 2px solid #F27C8A;
+  border: 2px solid var(--medium-blue);
 }
 .social-two ul li {
   border: none;
@@ -535,7 +535,8 @@ ul {
   font-size: 18px !important;
 }
 .donate-btn .btn:hover {
-  color: #A1A1A1! important;
+  color: #121212
+  ! important;
 }
 .top-nav-collapse {
   background-color: #000;
@@ -573,20 +574,20 @@ ul {
     background-color: rgba(0,0,0,1);
   }
   #cssmenu.small-screen .submenu-button.submenu-opened {
-    background: #F27C8A;
+    background: var(--medium-blue);
   }
   #cssmenu.small-screen #menu-button:before {    
-    background: #F27C8A;
+    background: var(--medium-blue);
   }
   #cssmenu.small-screen #menu-button:after {   
-    border-top: 2px solid #F27C8A;
-    border-bottom: 2px solid #F27C8A;
+    border-top: 2px solid var(--medium-blue);
+    border-bottom: 2px solid var(--medium-blue);
   }
   #cssmenu.small-screen #menu-button.menu-opened:before {    
-    background: #F27C8A;
+    background: var(--medium-blue);
   }
   #cssmenu.small-screen #menu-button.menu-opened:after {    
-    background: #F27C8A;
+    background: var(--medium-blue);
   }
 }
 @media(max-width:1200px) {
@@ -655,7 +656,7 @@ ul {
   background: #000;
 }
 .search-close:hover {  
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .search input:focus {
   outline: none!important;
@@ -789,7 +790,7 @@ ul {
   line-height: 80px;
 }
 .abt-one .abt-icon {
-  background: #F27C8A;
+  background: var(--medium-blue);
   width: 80px;
   height: 80px;
   border-radius: 100%;
@@ -900,7 +901,7 @@ ul {
   color: #FFF;
 }
 .sermons-icon li:hover a {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .sermons-heading {
   -webkit-transition: all 0.5s ease;
@@ -987,7 +988,7 @@ ul {
   transform: translate(-50%, -50%);
 }
 .sermons-three .sermons-img-icon a:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .sermons-vThree .sermons-desc {
   margin-bottom: 24px;
@@ -1149,7 +1150,7 @@ ul {
   color: #FFF;
 }
 .sermons-hOne .sermons-icon li:hover a {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .sermons-hOne .read-more:hover,
 .sermons-hOne .read-more:hover i {
@@ -1232,7 +1233,7 @@ ul {
   transition: all 0.5s ease;
 }
 .news-heading:hover {
-  color:#F27C8A;
+  color:var(--medium-blue);
 }
 .news-date {
   margin-right: 42px;
@@ -1240,7 +1241,7 @@ ul {
 .news-date i, 
 .news-by i {  
   padding-right: 10px;
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .news-contentOne,
 .news-contentTwo {
@@ -1486,11 +1487,11 @@ ul {
   font-size: 26px;
 }
 .event-bg-content .btn-default:hover {
-  background-color: #F27C8A;
+  background-color: var(--medium-blue);
   color: #FFF;
 }
 .event-bg-content .event-countdown .counter-col {
-  background-color: #F27C8A;
+  background-color: var(--medium-blue);
 }
 @media (max-width: 767px) {
   .event-content {
@@ -1518,7 +1519,7 @@ ul {
   transition: all 0.5s ease;
 }
 .upcoming-heading:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .upcoming-main-block .row-top-spacing {
   margin-top: 78px;
@@ -1945,7 +1946,7 @@ ul {
   width: 100%;
 }
 .supporter-item:hover {  
-  background: #F27C8A;
+  background: var(--medium-blue);
 }
 
 /* ================================= */
@@ -1970,7 +1971,7 @@ ul {
   border-radius: 100%;
 }
 .client-post {
-  color: #F27C8A;
+  color: var(--medium-blue);
   font-size: 14.8px;
   line-height: 1.56;
   padding-bottom: 11px;
@@ -2052,7 +2053,7 @@ ul {
   font-size: 22px;
 }
 .priest-two .priest-name:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .priest-two .priest-img {
   -webkit-transition: all 0.5s ease;
@@ -2122,7 +2123,7 @@ ul {
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  color: #F27C8A;
+  color: var(--medium-blue);
   background-color: #FFF;
 }
 .subscribe-form label {
@@ -2473,7 +2474,7 @@ ul {
 }
 .portfolio-item .btn-video-play:hover,
 .video-main-block .btn-video-play:hover {
-  background: #F27C8A;
+  background: var(--medium-blue);
 }
 /*===== Sermons Video =====*/
 .sermons-img-block .video-bg-img {
@@ -2499,7 +2500,7 @@ ul {
   transition: all 0.5s ease;
 }
 .sermons-img-block .btn-video-play:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 
 /*===== Audio Popup =====*/
@@ -2585,10 +2586,10 @@ ul {
   color: #FFF;
 }
 .banner-main-block .breadcrumb>.active a{
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .banner-main-block .breadcrumb li a:hover{
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .banner-main-block .overlay-bg {
   background: rgba(0,0,0,0.8);  
@@ -2678,14 +2679,14 @@ ul {
 .error-block .search-btn:active,
 .error-block .search-btn:focus,
 .error-block .search-btn:active:focus {
-  color: #F27C8A;
+  color: var(--medium-blue);
   background-color: #F2F2F2;
   outline: none;
 }
 .search-form .input-group:hover,
 .search-form .input-group:active,
 .search-form .input-group:focus {
-  border-color: #F27C8A;
+  border-color: var(--medium-blue);
 }
 .error-subheading {
   font-size: 19.6px;
@@ -2827,7 +2828,7 @@ ul {
 }
 .blog-comment .media-heading:hover,
 .blog-comment .media-heading:hover span {  
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .media-reply a {
   font-size: 22px;
@@ -2836,7 +2837,7 @@ ul {
   text-transform: uppercase;
 }
 .media-reply a:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .media-body p {
   line-height: 1.56;
@@ -2854,7 +2855,7 @@ ul {
   transition: all 0.5s ease;
 }
 .media-body:hover {
-  border: solid 2px #F27C8A;
+  border: solid 2px var(--medium-blue);
 }
 .comment-main-block .media-left a img {    
   border-radius: 100%;
@@ -2883,7 +2884,7 @@ ul {
   transition: all 0.5s ease;
 }
 .ministry-heading:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .ministry-main-block .row-top-spacing {
   margin-top: 57px;
@@ -2936,7 +2937,7 @@ ul {
   transition: all 0.5s ease;
 }
 .ministry-quote:hover .quotes-icon {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .ministry-dtl-btn {
   text-align: center;
@@ -3044,11 +3045,11 @@ ul {
   font-style: italic;
 }
 .pastor-content .quotes-icon {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .pastor-main-block .pastor-id p {
   text-transform: uppercase;
-  color: #F27C8A;
+  color: var(--medium-blue);
   text-align: center;
   padding-top: 20px;
 }
@@ -3135,7 +3136,7 @@ ul {
   color: #FFF;
 }
 .pastor-gallery-block .pastor-id:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .pastor-gallery-block:hover .pastor-post {
   color: #A1A1A1;
@@ -3237,7 +3238,7 @@ ul {
   transition: all 0.3s ease;
 }
 .pastor-quote-block:hover .quotes-icon {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 @media(max-width:767px) {  
   .pastor-form-block {
@@ -3291,7 +3292,7 @@ ul {
   transition: all 0.5s ease;
 }
 .pastor-faq .panel-default:hover >.panel-heading {
-  border: 1px solid #F27C8A;
+  border: 1px solid var(--medium-blue);
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -3300,7 +3301,7 @@ ul {
 }
 .pastor-faq .panel-default:hover .faq-heading,
 .pastor-faq .panel-default:hover .faq-btn {
-  color: #F27C8A;
+  color: var(--medium-blue);
 } 
 .pastor-faq .panel-group .panel+.panel {
   margin-top: 20px;
@@ -3319,7 +3320,7 @@ ul {
 }
 .faq-heading .btn-default:hover,
 .faq-heading .btn-default:focus {
-  color: #F27C8A;
+  color: var(--medium-blue);
   background-color: transparent;
   border: none;
   outline: none;
@@ -3362,7 +3363,7 @@ ul {
   transition: all 0.3s ease;
 }
 .speaker-main-block .speaker-id:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .speaker-main-block .speaker-content {
   text-align: center;
@@ -3409,7 +3410,7 @@ ul {
   padding-bottom: 40px;
 }
 .footer-heading {  
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .footer-logo {
   padding-top: 75px;
@@ -3442,7 +3443,7 @@ ul {
   line-height: 1.5;
 }
 .footer-post-date {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .contact-no a,
 .mail-to a {
@@ -3455,7 +3456,7 @@ ul {
 }
 .contact-no a:hover,
 .mail-to a:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 /*===== Footer Portfolio =====*/
 .footer-content .portfolio-img {
@@ -3529,7 +3530,7 @@ ul {
 }
 .footer-cause-block .panel-title a:hover,
 .footer-cause-block .panel-title a:focus {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .footer-cause-block .panel-heading,
 .footer-cause-block .panel-body {
@@ -3618,7 +3619,7 @@ ul {
 .contact-form .form-control:focus,
 .contact-form .form-textarea:active,
 .contact-form .form-textarea:focus {
-  border-color: #F27C8A;  
+  border-color: var(--medium-blue);  
   background: #FFF;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(242,124,138,.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(242,124,138,.6);
@@ -3647,12 +3648,24 @@ ul {
 }
 @media(max-width: 767px) {
   .contact-block {
+    height: 100vh;
     margin-top: 20px;
   }
 }
+
+/* colors  */
+:root {
+  --light-blue: #88ccff;
+  --medium-blue: #64a6ff;
+  --dark-blue: #2365ff;
+}
+
+/* end color  */
+
 /*===== Contact Two =====*/
 .contact-two .contact-block {  
-  background-color: #F27C8A;
+  height: 24vh;
+  background-color: var(--light-blue);
   text-align: center;
   padding: 51px 69px 40px;
 }
@@ -3701,10 +3714,10 @@ ul {
   transition: all 0.5s ease;
 }
 .contact-two .block-two {
-  background-color: #F06575;
+  background-color: var(--medium-blue);
 }
 .contact-two .block-three {
-  background-color: #ED4E61;
+  background-color: var(--dark-blue);
 }
 .contact-two {
   margin: 152px auto 151px;
@@ -3714,6 +3727,7 @@ ul {
 }
 @media(max-width: 992px) {  
   .contact-two .contact-block {
+    height: 44vh;
     margin-top: 15px;
   }   
   .contact-two .col-spacing {
@@ -3805,7 +3819,7 @@ ul {
   display: inline-flex;
   margin-top: 46px;
   font-size: 25px;
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .pastor-form-block .pastor-contact p {
   display: inline-block;
@@ -3821,7 +3835,7 @@ ul {
   color: #020202;
 }
 .pastor-form-block a:hover {
-  color: #F27C8A;
+  color: var(--medium-blue);
 }
 .pastor-form .form-section .form-subheading {
   max-width: 922px;
@@ -3875,7 +3889,7 @@ ul {
   position: relative;
 }
 .price-filter .ui-slider-handle.ui-state-default.ui-corner-all {
-  background: #F27C8A none repeat scroll 0 0;
+  background: var(--medium-blue) none repeat scroll 0 0;
   border: medium none;
   border-radius: 50%;
   height: 27px;
@@ -3885,7 +3899,7 @@ ul {
   position: absolute;
 }
 .ui-slider-range.ui-widget-header.ui-corner-all {
-  background: #F27C8A none repeat scroll 0 0;
+  background: var(--medium-blue) none repeat scroll 0 0;
   height: 14px;
   position: absolute;
 }
